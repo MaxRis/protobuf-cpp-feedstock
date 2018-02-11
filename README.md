@@ -23,25 +23,25 @@ Current release info
 Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/protobuf/badges/version.svg)](https://anaconda.org/conda-forge/protobuf)
 Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/protobuf/badges/downloads.svg)](https://anaconda.org/conda-forge/protobuf)
 
-Installing protobuf
+Installing protobuf-cpp
 ===================
 
-Installing `protobuf` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `protobuf-cpp` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
 
 ```
 conda config --add channels conda-forge
 ```
 
-Once the `conda-forge` channel has been enabled, `protobuf` can be installed with:
+Once the `conda-forge` channel has been enabled, `protobuf-cpp` can be installed with:
 
 ```
-conda install protobuf
+conda install protobuf-cpp
 ```
 
-It is possible to list all of the versions of `protobuf` available on your platform with:
+It is possible to list all of the versions of `protobuf-cpp` available on your platform with:
 
 ```
-conda search protobuf --channel conda-forge
+conda search protobuf-cpp --channel conda-forge
 ```
 
 
@@ -84,7 +84,7 @@ Terminology
 Updating protobuf-cpp-feedstock
 ===========================
 
-If you would like to improve the protobuf recipe or build a new
+If you would like to improve the protobuf-cpp recipe or build a new
 package version, please fork this repository and submit a PR. Upon submission,
 your changes will be run on the appropriate platforms to give the reviewer an
 opportunity to confirm that the changes result in a successful build. Once
